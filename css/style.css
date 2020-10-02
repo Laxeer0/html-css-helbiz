@@ -9,6 +9,7 @@ html{
 
 .top-header.container [class*="col-"]{
   height:80px;
+
 }
 
 .top-header img{
@@ -75,6 +76,39 @@ p.title{
 
 .container.banner > div > a > img{
   width:150px;
+}
+
+section{
+  margin-top:50px;
+}
+
+.section-one{
+  text-align:center;
+}
+
+.helbizgo{
+  width:200px;
+}
+.helbizbike{
+  width:200px;
+}
+
+.section-one > div{
+  background-color:#FAFAFA;
+  padding: 50px 0;
+}
+
+.section-one > div > h1,p{
+  margin-bottom:5px;
+}
+
+.section-one > div > a{
+  text-decoration: none;
+  color:blue;
+}
+
+.section-one > div:first-child{
+  margin-right:10px;
 }
 
 /*Aggiustamenti testo per responsive*/
