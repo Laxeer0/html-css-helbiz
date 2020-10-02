@@ -53,19 +53,19 @@ html{
   background-repeat: no-repeat;
   background-position: center;
   padding: 8% 0px;
+  text-align:center
 
 }
 h1.title{
   color: white;
-  text-align:center;
   font-size: 2rem;
+  margin-bottom:10px;
 
 }
 p.title{
   color:white;
-
-  text-align:center;
   font-size: 1rem;
+  margin-bottom:10px;
 }
 
 .container.banner > [class*="col-"]{
@@ -73,9 +73,8 @@ p.title{
   top: 50%;
 }
 
-.container.banner > div >img{
-  display:block;
-  text-align: center;
+.container.banner > div > a > img{
+  width:150px;
 }
 
 /*Aggiustamenti testo per responsive*/
