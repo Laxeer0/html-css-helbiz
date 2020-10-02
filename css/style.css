@@ -53,9 +53,15 @@ html{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 8% 0px;
-  text-align:center
+  text-align:center;
 
+}
+
+.container.banner > [class*="col-"]{
+
+  position: absolute;
+  top:50%;
+  transform: translateY(-125%);
 }
 h1.title{
   color: white;
@@ -67,11 +73,6 @@ p.title{
   color:white;
   font-size: 1rem;
   margin-bottom:10px;
-}
-
-.container.banner > [class*="col-"]{
-
-  top: 50%;
 }
 
 .container.banner > div > a > img{
@@ -110,6 +111,34 @@ section{
 .section-one > div:first-child{
   margin-right:10px;
 }
+
+.section-two{
+  max-width: 100%;
+  height: 400px;
+  background-image: url("../img/Section2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+}
+.section-two > div >div{
+  padding: 50px 0;
+}
+.section-two > div >div:not(:last-child){
+  margin-right:10px;
+}
+
+
+img.smartphone-s2{
+  width:400px;
+}
+
+
+
+
+
+
 
 /*Aggiustamenti testo per responsive*/
 @media screen and (max-width: 767px){
